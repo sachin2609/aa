@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7ded58a1-490f-4327-84ae-e880137f34dd}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{b0b5fede-54a8-4160-9a6b-93e2cec4225e}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c824c74f-5a51-446c-ba63-013b0224b6c0}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4f9525b9-364e-47a7-9e80-b6d0da5f8c70}">
+                        <labels>
+                          <label description="EQUIPMENT ID" languagecode="1033" />
+                        </labels>
+                        <control id="crac0_equipmentid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crac0_equipmentid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8eb760ca-69ab-4a81-b9db-cdb9c089da1f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="NAME" languagecode="1033" />
+                        </labels>
+                        <control id="crac0_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crac0_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8536c3df-a5f7-42c8-b09a-95e48a509f5b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="SIZE" languagecode="1033" />
+                        </labels>
+                        <control id="crac0_size" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crac0_size" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{368b6a4c-1c30-4272-87fc-3394573d6eb3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="BW_CLIENT" languagecode="1033" />
+                        </labels>
+                        <control id="crac0_bw_client" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="crac0_bw_client" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{881df621-bae9-4207-86d8-9e9bdf89e14c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="TYPE" languagecode="1033" />
+                        </labels>
+                        <control id="crac0_type" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crac0_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{82cef5c0-a341-4775-b6a2-2650cecf6f92}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="WEIGHT" languagecode="1033" />
+                        </labels>
+                        <control id="crac0_weight" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crac0_weight" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a9af97f8-d500-4831-b8af-6eaa03c24927}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{8682deca-8310-4c47-bf10-3be757eb52b0}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{7a78f6ea-c159-429b-a720-aea3efcfdb3a}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{32fe0425-75ca-41bb-9f99-12a6095d2662}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{103c1f0c-6665-457c-aa08-8c1043aa98e7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{faaae1d7-a7e8-40ba-b35f-9ed00ef1beda}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b0b2f42d-9b97-4fc7-a8a4-33cb00486f8a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{1be43de3-572c-435e-9cb8-bb96f0ec46ed}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{cdc02603-1d56-4e11-9ecc-05527eccf10a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4a558a93-cd74-42f9-8595-7cdd7ab51ca0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a85fb9e8-a91d-4b24-ae33-d48a9fd16785}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="EQUIPMENT" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

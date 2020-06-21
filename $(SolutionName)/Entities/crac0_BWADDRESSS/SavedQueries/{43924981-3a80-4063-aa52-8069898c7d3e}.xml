@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{43924981-3a80-4063-aa52-8069898c7d3e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="crac0_housenumber" select="1" icon="1" preview="1">
+        <row name="result" id="crac0_bwaddresssid">
+          <cell name="crac0_housenumber" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="crac0_bwaddresss">
+          <attribute name="crac0_bwaddresssid" />
+          <attribute name="crac0_housenumber" />
+          <attribute name="createdon" />
+          <order attribute="crac0_housenumber" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="crac0_housenumber" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active BW ADDRESSSES" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

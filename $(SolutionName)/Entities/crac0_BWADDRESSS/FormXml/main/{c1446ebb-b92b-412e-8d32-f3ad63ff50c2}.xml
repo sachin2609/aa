@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c1446ebb-b92b-412e-8d32-f3ad63ff50c2}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{0934f92c-724b-4c89-aaf3-3ce1a22c5fac}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{14282617-982f-45b1-81f1-920952ce541d}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2c7d2d63-6471-4b8f-8877-c82c71f9386d}">
+                        <labels>
+                          <label description="HOUSE NUMBER" languagecode="1033" />
+                        </labels>
+                        <control id="crac0_housenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crac0_housenumber" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ea3021db-001d-4227-a6e6-55680db1e241}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="STREET ADDRESS" languagecode="1033" />
+                        </labels>
+                        <control id="crac0_streetaddress" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crac0_streetaddress" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{21406dcd-c83b-4972-bfd8-6c87845b134d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="CITY" languagecode="1033" />
+                        </labels>
+                        <control id="crac0_city" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crac0_city" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f3e603f9-0fe6-4094-afb8-06fa572c4303}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="STATE" languagecode="1033" />
+                        </labels>
+                        <control id="crac0_state" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crac0_state" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{41fa41ff-80dc-4917-8d49-888be9f31735}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="ZIPCODE" languagecode="1033" />
+                        </labels>
+                        <control id="crac0_zipcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crac0_zipcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9779c422-27f6-4a48-a424-c312cac51160}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="BW_CLIENT" languagecode="1033" />
+                        </labels>
+                        <control id="crac0_bw_client" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="crac0_bw_client" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{746eb73e-84ca-4a0a-9732-5a27f417c5f4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="BW_CONTACT" languagecode="1033" />
+                        </labels>
+                        <control id="crac0_new_bw_contact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="crac0_new_bw_contact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a618393d-40c3-496b-b4e8-6e3ab7171e1f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="COUNTRY" languagecode="1033" />
+                        </labels>
+                        <control id="crac0_country" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crac0_country" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e9dfcb29-38d1-464d-8985-88738a86e9a0}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{d27617bc-788f-458d-88c7-83c0dae89319}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{86f26cbe-9a63-47c8-bf7e-7b93585fa906}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{eea80e5f-c8da-480d-bec6-6a48891211e9}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{e890e928-61bb-40bd-ac2f-231522ae45d0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{df97f638-1b7f-4998-87d5-5c94f40ae331}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{987f2dca-f70a-4d5c-98a1-1fe92d2f228b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{f663be63-6348-44e7-918c-bb15e5faf5d9}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{bca4d911-458f-40f8-8ccf-471f8d84a84e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f842b687-0ba5-4928-9064-f14966edcf55}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cd5a14c6-d823-40dd-bb5a-af9373df387a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

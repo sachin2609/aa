@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{cf7f1e5b-c8bb-4769-87cb-a1cdcb9995ba}</savedqueryid>
+    <layoutxml>
+      <grid name="crac0_bw_equipments" jump="crac0_equipmentid" select="1" icon="1" preview="1">
+        <row name="crac0_bw_equipment" id="crac0_bw_equipmentid">
+          <cell name="crac0_equipmentid" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="crac0_bw_equipment">
+          <attribute name="crac0_bw_equipmentid" />
+          <attribute name="crac0_equipmentid" />
+          <attribute name="createdon" />
+          <order attribute="crac0_equipmentid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="BW_EQUIPMENT Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{848b6844-29a7-47c3-a517-6a3409ace1c4}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{1d9b2cc2-612c-4004-a2e8-2159430a6f7c}" IsUserDefined="1" name="CONADDRESS">
+          <labels>
+            <label description="CONADDRESS" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{55e3053c-1365-4900-b505-da149443cee2}" name="CONTACT">
+                  <labels>
+                    <label description="CONTACT" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8b22c4cc-3b39-4dcc-8c93-80128e513d9e}">
+                        <labels>
+                          <label description="FIRST NAME" languagecode="1033" />
+                        </labels>
+                        <control id="new_firstname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_firstname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{645b2f62-7fb0-4389-b8f7-8eb6297adc10}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="LAST NAME" languagecode="1033" />
+                        </labels>
+                        <control id="new_lastname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_lastname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aec5ed0f-d793-46c9-a67d-ef19ce317553}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="PHONE NUMBER" languagecode="1033" />
+                        </labels>
+                        <control id="new_phonenumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_phonenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0026338-beff-4b19-8415-b88663edaa67}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="EMAIL ADDRESS" languagecode="1033" />
+                        </labels>
+                        <control id="new_emailaddress" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_emailaddress" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{357d4a47-91bf-4b33-9f6c-3396843847e3}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="ADDRESS" id="e71d93a4-1088-495b-9d02-8fc1d4368d50" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="ADDRESS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{91ee3644-e719-4b97-b2db-78a322d47ace}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1589786773873" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>crac0_bwaddresss</TargetEntityType>
+                            <ViewId>{610431AB-D798-EA11-A811-000D3A35B8CE}</ViewId>
+                            <ViewIds>{E1542674-2B02-40A3-B69E-07C490976DAD},{610431AB-D798-EA11-A811-000D3A35B8CE}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>crac0_new_BW_CONTACT_new_BW_CONTACT_crac0_BWADD</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{4992d279-b2c4-4d67-829d-a71cb05d412d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{a8f7d408-3b17-4823-9149-51ff05a9f994}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5602b02e-25ec-41e8-a921-4e777d4832b0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e9ceb7be-aa60-48d9-bf7f-01e37327ca9b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{0b21fb4d-4287-4360-b095-02ec1b2cc8b0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7fe32c3e-e7ca-4862-8313-dc3a68a18259}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fffb4dc2-1754-4058-934c-1294f51056dd}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5ce96375-8cf7-4d62-8d4d-589a35d5e222}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SWC CONTACT FORM" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

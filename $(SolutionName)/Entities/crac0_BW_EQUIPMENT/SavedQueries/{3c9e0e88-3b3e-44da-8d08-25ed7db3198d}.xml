@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3c9e0e88-3b3e-44da-8d08-25ed7db3198d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="crac0_equipmentid" select="1" icon="1" preview="1">
+        <row name="result" id="crac0_bw_equipmentid">
+          <cell name="crac0_equipmentid" width="169" />
+          <cell name="crac0_name" width="100" />
+          <cell name="crac0_bw_client" width="100" />
+          <cell name="crac0_size" width="100" />
+          <cell name="crac0_type" width="100" />
+          <cell name="crac0_weight" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="crac0_bw_equipment">
+          <attribute name="crac0_bw_equipmentid" />
+          <attribute name="crac0_equipmentid" />
+          <attribute name="createdon" />
+          <order attribute="crac0_equipmentid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="crac0_name" />
+          <attribute name="crac0_size" />
+          <attribute name="crac0_type" />
+          <attribute name="crac0_weight" />
+          <attribute name="crac0_bw_client" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active BW_EQUIPMENTS" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{40a0e636-8592-405e-99f8-fed8a67a11e2}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="crac0_clientid" select="1" icon="1" preview="1">
+        <row name="result" id="crac0_bw_clientid">
+          <cell name="crac0_clientid" width="111" />
+          <cell name="crac0_clientname" width="100" />
+          <cell name="crac0_site" width="100" />
+          <cell name="crac0_type" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="crac0_bw_client">
+          <attribute name="crac0_bw_clientid" />
+          <attribute name="crac0_clientid" />
+          <attribute name="createdon" />
+          <order attribute="crac0_clientid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="crac0_clientname" />
+          <attribute name="crac0_site" />
+          <attribute name="crac0_type" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active BW_CLIENTS" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

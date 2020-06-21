@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{610431ab-d798-ea11-a811-000d3a35b8ce}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="crac0_housenumber" select="1" icon="1" preview="1">
+        <row name="result" id="crac0_bwaddresssid">
+          <cell name="crac0_housenumber" width="133" />
+          <cell name="crac0_streetaddress" width="100" />
+          <cell name="crac0_city" width="72" />
+          <cell name="crac0_bw_client" width="100" />
+          <cell name="crac0_new_bw_contact" width="100" />
+          <cell name="crac0_state" width="76" />
+          <cell name="crac0_zipcode" width="81" />
+          <cell name="crac0_country" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="crac0_bwaddresss">
+          <attribute name="crac0_housenumber" />
+          <attribute name="crac0_bwaddresssid" />
+          <attribute name="crac0_streetaddress" />
+          <attribute name="crac0_city" />
+          <attribute name="crac0_state" />
+          <attribute name="crac0_zipcode" />
+          <attribute name="crac0_country" />
+          <attribute name="crac0_new_bw_contact" />
+          <attribute name="crac0_bw_client" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="SWC ADDRESS VIEW" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="ADDRESS VIEW" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>
